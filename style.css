@@ -28,10 +28,10 @@ padding:0;
 }
 
 .cards-container {
-    display: flex;          /* حط العناصر جنب بعض */
-    justify-content: center;/* خليهم بالنص */
-    gap: 20px;              /* مسافة بين كل كارد والثاني */
+    display: flex;        
+    justify-content: center;
+    gap: 22px;      
     padding: 20px;
     background-color: #f7f7f7;
-    flex-wrap: wrap;        /* لو الشاشة صغيرة ينزلوا تحت بعض */
+    flex-wrap: wrap;       
 }
