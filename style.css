@@ -14,6 +14,7 @@ padding:0;
   display:flex;
   justify-content: center; 
 }
+
 .navbar a {
   padding: 14px 20px;
   display: block;
@@ -26,3 +27,11 @@ padding:0;
   background-color: #555;
 }
 
+.cards-container {
+    display: flex;          /* حط العناصر جنب بعض */
+    justify-content: center;/* خليهم بالنص */
+    gap: 20px;              /* مسافة بين كل كارد والثاني */
+    padding: 20px;
+    background-color: #f7f7f7;
+    flex-wrap: wrap;        /* لو الشاشة صغيرة ينزلوا تحت بعض */
+}
