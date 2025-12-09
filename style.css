@@ -9,23 +9,13 @@ padding:0;
 #div-1{
 
      
-<<<<<<< HEAD
     border: 4px solid rgb(167, 109, 1);
-=======
-    border: 4px solid #010101;
->>>>>>> c28fc96181709155a53a56fad05f092d0affee2f
-   
 }
 
 .navbar {
-<<<<<<< HEAD
  background-color: rgb(0, 0, 51);
   width: 99.9%;
   padding: 1px;0 ;
-=======
-  background-color: rgb(255, 191, 0);
-  width: 100%;
->>>>>>> c28fc96181709155a53a56fad05f092d0affee2f
   display:flex;
   justify-content: center; 
 }
@@ -33,17 +23,13 @@ padding:0;
 .navbar a {
   padding: 14px 20px;
   display: block;
-<<<<<<< HEAD
   color: rgb(167, 109, 1);
-=======
-  color: rgba(0, 0, 0, 0.96);
->>>>>>> c28fc96181709155a53a56fad05f092d0affee2f
   text-decoration: none;
   font-size: 18px;
   font-family: Arial;
 }
 .navbar a:hover {
-  background-color: #060e85f9;
+  background-color:rgb(0, 0, 51);
 }
 
 .cards-container {
