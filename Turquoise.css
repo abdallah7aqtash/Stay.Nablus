@@ -137,3 +137,24 @@
   object-fit: cover;
   border-radius: 10px;
 }
+
+.book-btn {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.book-bttn {
+  background-color: #004aad; 
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  transition: 0.2s;
+}
+
+.book-btn:hover {
+  background-color: #003580; 
+}
