@@ -3,25 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking</title>
+    <title>Booking Page</title>
+         <link rel="stylesheet" href="booking.css">
 </head>
 <body>
-    <h1>Booking Page</h1>
-    <p> Welcome to the booking page.</p>
+<div>
+ <div class="room-header">
+    <img src="logo.jpeg" alt="Stay Nablus logo" class="room-logo">
+ </div>
+
+<section class="booking-info">
+
+  <h1 class="booking-title">Booking Registration</h1>
+
+  <div class="booking-form">
+
+    <div class="form-group">
+      <label>First Name</label>
+      <input type="text">
+    </div>
+
+    <div class="form-group">
+      <label>Last Name</label>
+      <input type="text">
+    </div>
+
+    <div class="form-group">
+      <label>Phone Number</label>
+      <input type="text">
+    </div>
+
+    <div class="form-group">
+      <label>Number of Guests</label>
+      <select>
+  <option value="">Select number</option>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+    </div>
+
+    <button class="submit-btn">Confirm Booking</button>
+
+  </div>
+
+</section>
 
 
-
-
-
-
-    <script>
-    function openBooking() {
-        window.open("booking.html", "_blank");
-    }
-    </script>
-
-
-
-   
+</div>   
 </body>
 </html>
