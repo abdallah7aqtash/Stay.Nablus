@@ -122,8 +122,10 @@ All rooms are air-conditioned and include a flat-screen TV, seating area, and pr
         <a herf="https://momento360.com/e/u/9253b5e12b4a4f7f93c68653a322d780?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"><img src="trq8.jpg" alt="room 360">
 
     </div>
-<div class="book-btn">
-    <button class="book-bttn">BOOK NOW</button>
+  <div class="book-btn">
+    <button class="book-bttn" onclick="openBooking()">BOOK NOW</button>
+</div>
+
 </div>
     
 
@@ -133,6 +135,10 @@ function change360(link) {
     document.getElementById("viewer360").src = link;
 }
 </script>
-
+<script>
+    function openBooking() {
+        window.open("booking.html", "_blank");
+    }
+    </script>
 </body>
 </html>
