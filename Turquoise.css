@@ -61,7 +61,12 @@
   margin: 4px 0 10px 20px;
   padding: 0;
 }
-
+.hotel-photos-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
 .try360-title {
   margin-top: 35px;
