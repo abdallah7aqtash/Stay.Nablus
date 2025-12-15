@@ -40,15 +40,18 @@ padding:0;
 }
 
 .card {
-  background: #fff;
+  background:#f3e8d9;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgb(0,0,51);
   transition: 0.3s;
   text-align: center;
   padding-bottom: 15px;
+  
 }
-
+h3{
+  color:rgb(0, 0, 51);
+}
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);

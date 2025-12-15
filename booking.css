@@ -10,10 +10,12 @@
 
 .room-logo {
   height: 110px;
+  background-color: rgb(0, 0, 51);
 }
 .booking-title {
   text-align: center;
   margin-bottom: 25px;
+  color:rgb(0, 0, 51);
 }
 
 .booking-form {
@@ -30,6 +32,7 @@
 .form-group label {
   margin-bottom: 5px;
   font-weight: bold;
+  color: #234a6e;
 }
 
 .form-group input {
@@ -40,9 +43,14 @@
 .submit-btn {
   width: 100%;
   padding: 10px;
-  background-color: #021836;
-  color: white;
+  background-color: rgb(0, 0, 51);
+  color: #c9a86a;
   border: none;
   font-size: 15px;
   cursor: pointer;
+  box-shadow: 0 4px 15px rgb(0,0,51);
+  text-decoration: none;
+}
+*{
+  background-color: #f3e8d9;
 }

@@ -18,9 +18,9 @@
   max-width: 900px;
   margin: 30px auto;
   padding: 20px 24px;
-  background: #fff;
+  background: #f3e8d9;
   border-radius: 10px;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 12px rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,7 +29,7 @@
   text-align: center;
   font-size: 28px;
   margin: 0 0 10px;
-  color: #222;
+  color: #234a6e;
 }
 
 .hotel-info .rating {
@@ -42,13 +42,13 @@
 .hotel-info h2 {
   margin: 20px 0 8px;
   font-size: 22px;
-  color: #333;
+  color:#234a6e;
 }
 
 .hotel-info h3 {
   margin: 12px 0 6px;
   font-size: 18px;
-  color: #444;
+  color: #234a6e;
 }
 
 .hotel-info p,
@@ -56,7 +56,7 @@
   margin: 4px 0 8px;
   font-size: 15px;
   line-height: 1.6;
-  color: #555;
+  color: #000000;
 }
 
 .hotel-info ul {
@@ -150,8 +150,8 @@
 }
 
 .book-bttn {
-  background-color: #004aad; 
-  color: white;
+  background-color: rgb(0,0,51); 
+  color: #c9a86a;
   padding: 12px 25px;
   font-size: 18px;
   border: none;
@@ -159,10 +159,13 @@
   cursor: pointer;
   font-family: Arial, sans-serif;
   transition: 0.2s;
+  box-shadow: 0 4px 15px rgb(0,0,51);
+  text-decoration: none;
 }
 
 .book-btn:hover {
   background-color: #ffffff; 
+  text-decoration: none;
 }
 #lightbox {
   position: fixed;
@@ -189,4 +192,7 @@
 
 .hotel-photos img:hover {
   transform: scale(1.05);
+}
+h2{
+  color: #234a6e;
 }
