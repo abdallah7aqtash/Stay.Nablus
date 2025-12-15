@@ -10,31 +10,31 @@
 <body>
 <div>
       <div class="room-header">
-    <img src="logo.jpeg" alt="Stay Nablus logo" class="room-logo">
+    <img src="new logo.png" alt="Stay Nablus logo" class="room-logo">
   </div>
 
   <div class="gallery-360">
     <div class="big-img">
       <section class="hotel-info">
-        <h1>Al Yasmineh Hotel</h1>
+        <h1>Al Yasmineh Hostel</h1>
     
-    <h2>About the Hotel 🏨</h2>
+    <h2>About the Hostel 🏨</h2>
     <p>
-      Al Yasmeen Hotel is a 3-star hotel located in the heart of Nablus, offering comfortable accommodation with a variety of modern facilities. The hotel features a garden, shared lounge, terrace, and an on-site restaurant serving Mediterranean and Middle Eastern dishes. Guests can enjoy room service, a 24-hour front desk, and free Wi-Fi throughout the property.
+      Al Yasmeen Hostel is a 3-star hostel located in the heart of Nablus, offering comfortable accommodation with a variety of modern facilities. The hotel features a garden, shared lounge, terrace, and an on-site restaurant serving Mediterranean and Middle Eastern dishes. Guests can enjoy room service, a 24-hour front desk, and free Wi-Fi throughout the property.
 All rooms are air-conditioned and include a flat-screen TV, seating area, and private bathroom for a relaxing and convenient stay.
     </p>
-    <h2>Prices 💲</h2>
+    <h2>Prices ₪</h2>
     <p>
       Room rates range from 200 ILS to 600 ILS, depending on room type and season.
     </p>
     <h2>Location 📍</h2>
     <p>
-      The hotel is centrally located in Nablus, close to major commercial centers such as Khan Al-Tujjar and various cultural sites.
+      The hsotel is centrally located in Nablus, close to major commercial centers such as Khan Al-Tujjar and various cultural sites.
     </p>
     <h2>Services & Facilities 🏨</h2>
     <h3>Connectivity 🌐</h3>
     <li>•	Free high-speed Wi-Fi throughout the property</li>
-    <h3>Hotel Services</h3>
+    <h3>Hostel Services</h3>
     <li>
       •	24-hour front desk
       •	Room service
@@ -56,7 +56,7 @@ All rooms are air-conditioned and include a flat-screen TV, seating area, and pr
 	    •	Dairy-free options
 	    •	Halal meals
     </li>
-    <h3>Rooms 🛏</h3>
+    <h3>Rooms :</h3>
     <li>
       
   All rooms include:
@@ -71,14 +71,14 @@ All rooms are air-conditioned and include a flat-screen TV, seating area, and pr
 	•	Ironing facilities
 	•	Extra-long beds (2 meters)
     </li>
-    <h2>Contact Information ☎</h2>
+    <h2>Contact Information ☎ :</h2>
     <p><strong>Phone:</strong>09-2333555</p>
     <p><strong>Email:</strong>reservations@alyasmeen.com</p>
     
 </section>
 </div>
 
-<h2 class="hotel-photos-title">Hotel Photos</h2>
+<h2 class="hotel-photos-title">Hostel Photos :</h2>
 <div class="hotel-photos">
      <img src="yas1.jpg" alt="Hotel Photo">
     <img src="yas2.jpg" alt="Hotel Photo">
@@ -112,6 +112,17 @@ All rooms are air-conditioned and include a flat-screen TV, seating area, and pr
     
 
     </div>
+<div id="lightbox" onclick="this.style.display='none'">
+  <img id="lightbox-img">
+</div>
 
+<script>
+document.querySelectorAll('.hotel-photos img').forEach(img => {
+  img.onclick = () => {
+    document.getElementById('lightbox').style.display = 'flex';
+    document.getElementById('lightbox-img').src = img.src;
+  }
+});
+</script>
 </body>
 </html>

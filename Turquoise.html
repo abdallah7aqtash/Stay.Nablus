@@ -9,14 +9,14 @@
 <body>
     <div>
       <div class="room-header">
-    <img src="logo.jpeg" alt="Stay Nablus logo" class="room-logo">
+    <img src="new logo.png" alt="Stay Nablus logo" class="room-logo">
   </div>
   <section class="hotel-info">
   <h1>Turquoise Hostel</h1>
 
-  <h2>About the Hotel 🏨</h2>
+  <h2>About the Hostel 🏨</h2>
   <p>
-    Turquoise Hotel is a historic guesthouse located in the Old City of Nablus.
+    Turquoise Hostel is a historic guesthouse located in the Old City of Nablus.
     The building is 250 years old and was originally the home of a wealthy merchant.
     Today, it offers a warm and authentic cultural experience while providing modern
     comfort and convenience for travelers.
@@ -48,7 +48,7 @@
     <li>Small garden and reading corner</li>
   </ul>
 
-  <h3>Rooms 🛏️</h3>
+  <h3>Rooms :</h3>
   <ul>
     <li>Private rooms and studio rooms available</li>
     <li>Family-friendly options</li>
@@ -63,7 +63,7 @@
     transportation.
   </p>
 
-  <h2>Prices 💲</h2>
+  <h2>Prices ₪ </h2>
   <p>
     Rooms range from <strong>50 ILS to 250 ILS</strong>, depending on room type and season.
   </p>
@@ -73,7 +73,7 @@
   <p><strong>Email:</strong> theyallaproject@gmail.com</p>
 </section>
 
-<h2 class="hotel-photos-title" >Hotel Photos</h2>
+<h2 class="hotel-photos-title" >Hostel Photos :</h2>
 
 <div class="hotel-photos">
     <img src="tr1.jpeg" alt="Hotel Photo">
@@ -105,11 +105,23 @@
 
 </div>
     
+
+
+    </div>
 <div class="book-btn">
     <a href="booking.html" class="book-bttn">BOOK NOW</a>
 </div>
+<div id="lightbox" onclick="this.style.display='none'">
+  <img id="lightbox-img">
+</div>
 
-    </div>
-
+<script>
+document.querySelectorAll('.hotel-photos img').forEach(img => {
+  img.onclick = () => {
+    document.getElementById('lightbox').style.display = 'flex';
+    document.getElementById('lightbox-img').src = img.src;
+  }
+});
+</script>
 </body>
 </html>
