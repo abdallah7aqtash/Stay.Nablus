@@ -147,6 +147,7 @@ text-align: center;
   transition: 0.2s;
   box-shadow: 0 4px 15px rgb(0,0,51);
   text-decoration: none;
+  border-radius: 25px;
 }
 
 .book-btn:hover {
