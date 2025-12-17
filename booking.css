@@ -76,3 +76,11 @@ body{
   border: 1px solid #ccc;
   border-radius: 6px;
 }
+.logo-link {
+  text-decoration: none; 
+  color: inherit;      
+}
+
+.logo-link:hover {
+  opacity: 0.85;
+}
