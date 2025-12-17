@@ -1,34 +1,38 @@
-
 .room-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: rgb(0, 0, 51);
-  padding: 10px 20px;
+  padding: -5px ;
+  margin-right:auto;
+  background: #fff;
   border-bottom: 1px solid #eee;
-  min-height: 60px;
-}
-
-.room-logo {
-  height: 50px;
-  position: relative;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
   background-color: rgb(0, 0, 51);
+  height: 70px;
 }
-
+.room-logo {
+  height: 70px;
+  top: 10px;
+}
+.navbar {
+ background-color: rgb(0, 0, 51);
+  padding: 1px;
+  margin-top: -35px;
+  display:flex;
+  justify-content: center; 
+  top: 6px;
+  
+}
 .navbar a {
-  padding: 10px 20px;
+  padding: 14px 20px;
+  display: block;
   color: #c9a86a;
   text-decoration: none;
   font-size: 18px;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
 }
-
-
+.navbar a:hover {
+  background-color:rgb(0, 0, 51);
+  
+}
 .about-team {
   max-width: 1200px;
   margin: 20px auto;
@@ -103,23 +107,6 @@
 
 
 @media (max-width: 768px) {
-  .room-header {
-    flex-direction: column; 
-    height: auto;
-    padding: 15px;
-  }
-
-  .navbar {
-    margin-top: 10px;
-    width: 100%;
-    flex-wrap: wrap; 
-  }
-
-  .navbar a {
-    padding: 8px 12px;
-    font-size: 16px;
-  }
-
   
   .team-cards {
     flex-direction: column; 
