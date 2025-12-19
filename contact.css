@@ -31,7 +31,6 @@
 }
 .navbar a:hover {
   background-color:rgb(0, 0, 51);
-  
 }
 .about-team {
   max-width: 1200px;
@@ -45,9 +44,11 @@
 
 .about-team-title {
   text-align: center;
-  margin: 0;
-  color: #234A6E;
+  margin: 30px auto;
   font-size: 28px;
+  width: 100%;
+  display: block;
+  color: #234A6E;
 }
 
 .about-team-subtitle {
@@ -73,7 +74,7 @@
 }
 
 .team-card {
-  background: #ffffff;
+  background:#fff;
   border-radius: 12px;
   padding: 20px;
   text-align: center;

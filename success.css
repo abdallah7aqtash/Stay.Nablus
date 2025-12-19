@@ -1,0 +1,19 @@
+.room-header {
+  background: rgb(0, 0, 51);
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-logo {
+  height: 110px;
+}
+
+.navbar a:hover {
+  background-color:rgb(0, 0, 51);
+}
+body{
+    background-color: #f3e8d9;
+    text-align: center;
+}
