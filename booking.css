@@ -105,3 +105,6 @@ body{
 .logo-link:hover {
   opacity: 0.85;
 }
+h1{
+  text-align: center;
+}
